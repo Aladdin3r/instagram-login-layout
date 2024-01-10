@@ -1,3 +1,8 @@
 :root {
   --Blue: rgb(76, 104, 215);
+  --Grey: #f7f8f9;
+  --White: #ffffff;
+  --Black: #000000;
+  --lightGrey: #363636;
+  font-family: Arial, Helvetica, sans-serif;
 };
