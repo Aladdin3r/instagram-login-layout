@@ -1,8 +1,10 @@
 :root {
   --Blue: rgb(76, 104, 215);
+  --light-blue: #1fa1ff;
   --Grey: #f7f8f9;
   --White: #ffffff;
   --Black: #000000;
-  --lightGrey: #363636;
+  --lightGrey: #c4c4c4;
+  --text-grey: #737373;
   font-family: Arial, Helvetica, sans-serif;
 };

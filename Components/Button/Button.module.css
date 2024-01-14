@@ -1,0 +1,12 @@
+.button{
+    background-color: var(--light-blue);
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: var(--White);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}

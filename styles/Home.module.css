@@ -3,6 +3,51 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center; 
-  padding: 6rem;
+  padding: 1rem;
   min-height: 20vh;
 };
+
+.apps {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.image {
+  margin: 5px;
+}
+
+/* Desktop */
+@media (min-width: 1920px) and (min-height: 1080px) {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 1rem;
+  min-height: 20vh;
+}
+}
+/* Tablet */
+@media (min-width: 820px) and (min-height: 1180px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 1rem;
+    min-height: 20vh;
+  }
+}
+/* iPhone */
+@media (min-width: 420px) and (min-height: 1792px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 1rem;
+    min-height: 20vh;
+    min-width: 10vw;
+  }
+}

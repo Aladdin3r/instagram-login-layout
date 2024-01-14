@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: var(--White);
+    margin-top: 0%;
+}
+
+.fieldSet {
+    border-width: 1px;
+    border-color: var(--light-grey);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.insta {
+    display: block;
+    margin: auto;
+}
+
+.userNameInput {
+    width: 100%;
+    border-radius: 3px;
+    border-color: var(--Grey); 
+    background-color: var(--Grey);
+    border-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.passwordInput {
+    width: 100%;
+    border-radius: 3px;
+    border-color: var(--Grey); 
+    background-color: var(--Grey);
+    border-width: 1px;
+    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: small;
+}
+
+.link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--Blue);
+}
+
+.forgot {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size:x-small;
+    font-weight: medium;
+    text-decoration: none;
+    color: var(--Blue);
+}
+
+.second {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+
+.signUp {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: bold;
+    font-size: small;
+}
+/* Desktop */
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .fieldSet {
+        border-width: 1px;
+        border-color: var(--light-grey);
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    }
+    /* Tablet */
+    @media (min-width: 820px) and (min-height: 1180px) {
+        .fieldSet {
+            border-style: none;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    /* iPhone */
+    @media (min-width: 414px) and (min-height: 896px) {
+        .fieldSet {
+            border-style: none;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }

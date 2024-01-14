@@ -1,0 +1,40 @@
+.footer{
+    font-size: small;
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.footText{
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    color: var(--text-grey);
+}
+
+/* iPhone */
+@media (min-width: 420px) and (min-height: 1792px) {
+    .footer{
+        font-size: small;
+        color: var(--light-grey);
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        flex-flow: row wrap;
+        margin-top: 50px;
+    }
+    .footText{
+        margin: 8px;
+        display: flex;
+        flex-wrap: wrap; /*for some reason this is not working*/
+        justify-content: center;
+        align-content: space-between;
+        color: var(--text-grey);
+        max-width: 150px;
+    }
+  }
